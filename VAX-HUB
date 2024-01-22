@@ -1,24 +1,21 @@
 local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
 
-local PhantomForcesWindow = Library:NewWindow("VAX-Hub")
+local PhantomForcesWindow = Library:NewWindow("VAXHUB V1")
 
-local AutoParry = PhantomForcesWindow:NewSection("auto parry VAX")
+local Bladeball = PhantomForcesWindow:NewSection("BladeBall mainVAX V1")
 
-AutoParry:CreateButton("Hold Block To Spam", function()getgenv().SpamSpeed = 1
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3ABlade%20Ball%20Spam",true))()
+Bladeball:CreateToggle("Auto parry vax", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3ABlade%20Ball%20Parry",true))()
 end)
 
-AutoParry:CreateToggle("Auto pparry vax", function()getgenv().config = getgenv().config or {
-    hit_time = 0.5, -- // recommended 0.25 to 0.75 \ --
-    
-    mode = 'Always', -- // Hold , Toggle , Always \ --
-    deflect_type = 'Remote', -- // Key Press , Remote \ --
-    notifications = true,
-    keybind = Enum.KeyCode.V
-}
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3ABlade%20Ball%20Parry%20V4.0.0",true))()
+Bladeball:CreateToggle("Auto Spam VAX V1", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/DonGabrielle/AutoDetectV4/main/MainBalls"))()
 end)
 
-AutoParry:CreateToggle("Auto Clash", function()loadstring(game:HttpGet("https://pastebin.com/raw/t2391h1A"))()
+Bladeball:CreateToggle("Auto Spam VAX V2", function()loadstring(game:HttpGet("https://pastebin.com/raw/t2391h1A"))()
+end)
+
+Bladeball:CreateButton("vaxhub", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BladeBall/main/eng"))()
+end)
+
+Bladeball:CreateToggle("AutoDetectV1vax",
+function()loadstring(game:HttpGet("https://pastebin.com/raw/pjTTegEe"))()
 end)

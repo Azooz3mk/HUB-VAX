@@ -1,21 +1,21 @@
 local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
 
-local PhantomForcesWindow = Library:NewWindow("VAXHUB V1")
+local PhantomForcesWindow = Library:NewWindow("VAXHUB V2")
 
-local Bladeball = PhantomForcesWindow:NewSection("BladeBall mainVAX V1")
+local brokhaven = PhantomForcesWindow:NewSection("Brokhaven mainVAX المطور عزوز V2")
 
-Bladeball:CreateToggle("Auto parry vax", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3ABlade%20Ball%20Parry",true))()
+brokhaven:CreateToggle("kill vax", function()loadstring(game:HttpGet('https://raw.githubusercontent.com/SnoobG/Lua-Script-s/refs/heads/main/BrookHaven%20TvonHub'))()
 end)
 
-Bladeball:CreateToggle("Auto Spam VAX V1", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/DonGabrielle/AutoDetectV4/main/MainBalls"))()
+Brokhaven:CreateToggle("Auto 🍆 VAX V2", function()loadstring(game:HttpGet('https://raw.githubusercontent.com/Ndora1/Ndora1/refs/heads/main/Halloween.lua'))()
 end)
 
-Bladeball:CreateToggle("Auto Spam VAX V2", function()loadstring(game:HttpGet("https://pastebin.com/raw/t2391h1A"))()
+Brokhaven:CreateToggle("script take ramote VAX V2", function()loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-RP-TRollX-Version-Troll-33169"))()
 end)
 
-Bladeball:CreateButton("vaxhub", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BladeBall/main/eng"))()
+Brokhaven:CreateButton("vaxhub", function()
 end)
 
-Bladeball:CreateToggle("AutoDetectV1vax",
+Brokhaven:CreateToggle("AutoDetectV1vax",
 function()loadstring(game:HttpGet("https://pastebin.com/raw/pjTTegEe"))()
 end)
